@@ -1,0 +1,12 @@
+﻿numpy==1.26.4
+pandas==2.3.3
+pillow==12.1.0
+platformdirs==4.5.1
+streamlit==1.53.1
+torch==2.3.0
+torchvision==0.18.0
+ultralytics==8.4.8
+ultralytics-thop==2.0.18
+rapidfuzz
+opencv-python
+
