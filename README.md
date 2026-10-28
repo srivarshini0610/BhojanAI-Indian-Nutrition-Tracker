@@ -177,52 +177,6 @@ bhojanai/
 
 ---
 
-## Run with Docker
 
-```bash
-docker pull shreyasvankhede/bhojanai-indianfoodcalorietracker:latest
 
-docker run -p 8501:8501 \
-  shreyasvankhede/bhojanai-indianfoodcalorietracker:latest
-```
- ##Open:
-  http://localhost:8501
-
-## Setup on source code
-```bash
-git clone https://github.com/shreyasvankhede/BhojanAI.git
-cd bhojanai
-pip install -r requirements.txt
-streamlit run front.py
-```
-
-**requirements.txt**
-```
-streamlit
-ultralytics
-torch
-torchvision
-opencv-python
-Pillow
-pandas
-numpy
-rapidfuzz
-```
-
----
-
-## What's Planned Next
-
-- BMR-based daily calorie targets using the stored user profile
-- More training data for idli, momos, and kulfi to bring their mAP up
-- Expanding to 50+ food categories
-- FastAPI backend to replace Streamlit session logic
-- On-device inference with TFLite or ONNX for mobile
-- Weekly and monthly nutrition trend charts
-
----
-
-## Author
-
-**Shreyas Vankhede**
 
